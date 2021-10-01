@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "ts-node-dev src/server.ts",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
   },
   "config": {
     "commitizen": {
